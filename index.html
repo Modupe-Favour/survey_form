@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+    <form id="survey-form">
+      <fieldset>
+        <input id="name" type="text" placeholder="name" required> 
+        <input id="number" type="number" min="1" max="10000000" placeholder="number"></input>
+         <input id="email" name="email" type="email" placeholder="email" required /></input>
+        <label id="name-label">
+          <text>Add your name.</text>
+        </label>
+        <label id="email-label">
+          <text>Add your email.</text>
+        </label>
+        <label id="number-label">
+          <text>Add your number.</text>
+        </label>
+        <select id="dropdown">
+          <option>Soccer</option>
+          <option>Basketball</option>
+          <option>Tennis</option>
+          <option>Track</option>
+          <option>Ping Pong</option>
+          <option>Baseball</option>
+        </select>
+        <input type="radio" value="input" name="input"></input>
+        <input type="radio" value="input" name="input"></input>
+        <input type="checkbox" value="input"></input>
+        <input type="checkbox" value="input"></input>
+        <textarea></textarea>
+        <button id="submit" type="submit"><button>
